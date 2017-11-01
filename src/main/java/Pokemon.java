@@ -38,6 +38,13 @@ public class Pokemon {
      * The Pokemon type we are dealing with.
      */
     public PokemonType pokeType;
+    /**
+     *
+     * @return poketype.
+     */
+    public final PokemonType getType() {
+        return pokeType;
+    }
 
     /**
      * Number of hit points this Pokemon has.
